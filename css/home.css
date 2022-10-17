@@ -35,6 +35,125 @@ body {
     height:2.5px;
 }
 
+#contacts {
+    background-color:rgb(60, 64, 95);
+    width:25%;
+    height:500px;
+    position:absolute;
+    left:20%;
+    bottom:28%;
+}
+
+.contact {
+    border: 2px solid;
+    border-width: 2px;
+    border-color: rgb(38, 41, 59);
+    position: absolute;
+    margin:0 auto;
+    display: flex;
+    height: 25px;
+    width: 305px;
+    text-indent: 35px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 25px;
+
+    align-items: middle;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(255,255,255);
+
+    transition: border-color .15s, background-color .15s;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#contact-discord {
+    top: 0px;
+}
+
+#contact-discord2 {
+    top: 30px;
+}
+
+#contact-youtube {
+    top: 60px;
+}
+
+#contact-twitch {
+    top: 90px;
+}
+
+#contact-github {
+    top: 120px;
+}
+
+#discord-logo {
+    position: absolute;
+    width:27px;
+    height:20px;
+    align-self: left;
+    top:2.5px;
+    left:2.5px;
+}
+
+#youtube-logo {
+    position: absolute;
+    width:23px;
+    height:15px;
+    align-self: left;
+    top:5px;
+    left:2.5px;
+}
+
+#twitch-logo {
+    position: absolute;
+    width:20px;
+    height:21px;
+    align-self: left;
+    top:2.5px;
+    left:2.5px;
+}
+
+#github-logo {
+    position: absolute;
+    width:21px;
+    height:20px;
+    align-self: left;
+    top:2.5px;
+    left:2.5px;
+}
+
+#contact-discord:hover {
+    border-color: #7289da;
+    background-color:#7289da;
+    
+}
+
+#contact-discord2:hover {
+    border-color: #7289da;
+    background-color:#7289da;
+}
+
+#contact-youtube:hover {
+    border-color: #ff4b4b;
+    background-color:#ff4b4b;
+}
+
+#contact-twitch:hover {
+    border-color: #9b6dff;
+    background-color:#9b6dff;
+}
+
+#contact-github:hover {
+    border-color: #2b3137;
+    background-color:#2b3137;
+}
+
 .circle {
     border-radius:50%;
 }
