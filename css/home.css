@@ -24,10 +24,6 @@ body {
 
     position:absolute;
     align-self: left;
-    /* radial-gradient(circle,rgba(0,255,0,0) 50%,rgba(60, 64, 95,1)), */
-    /* radial-gradient(circle,rgba(0,255,0,0) 50%,rgba(60, 64, 95,1) 65%), */
-    background-image: url('../images/logo_image.jpg');
-    background-size: contain;
 }
 
 #topbar_underline {
