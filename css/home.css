@@ -164,9 +164,8 @@ body {
 
     width:600px;
     height:300px;
-    position:absolute;
-    left:40%;
-    top:175px;
+    position:relative;
+    left:350px; 
 
     text-align: center;
 
@@ -185,7 +184,7 @@ body {
     color: rgb(255,255,255);
 }
 
-#footer {
+footer {
     position: absolute;
     left:50%;
     top:96%;
