@@ -14,24 +14,34 @@ const githubButton = document.getElementById("contact-github")
 function copyDiscord() {
     navigator.clipboard.writeText(discordId).then(function(){
         alert("Discord tag copied")
+
+        return true
     })
 
 }
 
 function hrefDiscord() {
     window.open(discordLink, '_blank').focus();
+
+    return true
 }
 
 function hrefYoutube() {
     window.open(youtubeLink, '_blank').focus();
+
+    return true
 }
 
 function hrefTwitch() {
     window.open(twitchLink, '_blank').focus();
+
+    return true
 }
 
 function hrefGithub() {
     window.open(githubLink, '_blank').focus();
+
+    return true
 }
 
 discordButton.addEventListener('click',copyDiscord,false)
